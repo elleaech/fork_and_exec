@@ -24,9 +24,9 @@ int main()
         aechGetPID(&current_task);
         printf("FORK PID: %d\n", current_task);
 
-        char *argv_list[] = {"sleep", "1000", NULL};
+        char *argv_list[] = {"call_tty", NULL};
 
-        rc = execvp("sleep", argv_list);
+        rc = execv("./call_tty", argv_list);
         printf("rc=[%d]\n", rc);
     }
     else if (ERROR == rc)

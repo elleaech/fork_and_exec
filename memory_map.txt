@@ -1,0 +1,50 @@
+HEAP:                       94 043 858 169 856
+                            94 043 858 305 024
+STACK:                     140 720 906 047 488
+                           140 720 906 186 752
+TOTAL MEMORY:       18 446 744 073 709 551 616
+
+
+558849e3c000-558849e3e000 r--p 00000000 08:02 3671131                    /usr/bin/sleep
+558849e3e000-558849e42000 r-xp 00002000 08:02 3671131                    /usr/bin/sleep
+558849e42000-558849e44000 r--p 00006000 08:02 3671131                    /usr/bin/sleep
+558849e45000-558849e46000 r--p 00008000 08:02 3671131                    /usr/bin/sleep
+558849e46000-558849e47000 rw-p 00009000 08:02 3671131                    /usr/bin/sleep
+55884ac27000-55884ac48000 rw-p 00000000 00:00 0                          [heap]
+7fe7676c8000-7fe767c39000 r--p 00000000 08:02 3675100                    /usr/lib/locale/locale-archive
+7fe767c40000-7fe767c62000 r--p 00000000 08:02 3674584                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe767c62000-7fe767dda000 r-xp 00022000 08:02 3674584                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe767dda000-7fe767e28000 r--p 0019a000 08:02 3674584                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe767e28000-7fe767e2c000 r--p 001e7000 08:02 3674584                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe767e2c000-7fe767e2e000 rw-p 001eb000 08:02 3674584                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fe767e2e000-7fe767e32000 rw-p 00000000 00:00 0 
+7fe767e58000-7fe767e59000 r--p 00000000 08:02 3674576                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe767e59000-7fe767e7c000 r-xp 00001000 08:02 3674576                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe767e7c000-7fe767e84000 r--p 00024000 08:02 3674576                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe767e85000-7fe767e86000 r--p 0002c000 08:02 3674576                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe767e86000-7fe767e87000 rw-p 0002d000 08:02 3674576                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fe767e87000-7fe767e88000 rw-p 00000000 00:00 0 
+7fe767e8a000-7fe767e8c000 rw-p 00000000 00:00 0 
+7ffc239e1000-7ffc23a03000 rw-p 00000000 00:00 0                          [stack]
+7ffc23b98000-7ffc23b9c000 r--p 00000000 00:00 0                          [vvar]
+7ffc23b9c000-7ffc23b9e000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
+
+total 0
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 558849e3c000-558849e3e000 -> /usr/bin/sleep*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 558849e3e000-558849e42000 -> /usr/bin/sleep*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 558849e42000-558849e44000 -> /usr/bin/sleep*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 558849e45000-558849e46000 -> /usr/bin/sleep*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 558849e46000-558849e47000 -> /usr/bin/sleep*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe7676c8000-7fe767c39000 -> /usr/lib/locale/locale-archive
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767c40000-7fe767c62000 -> /usr/lib/x86_64-linux-gnu/libc-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767c62000-7fe767dda000 -> /usr/lib/x86_64-linux-gnu/libc-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767dda000-7fe767e28000 -> /usr/lib/x86_64-linux-gnu/libc-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767e28000-7fe767e2c000 -> /usr/lib/x86_64-linux-gnu/libc-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767e2c000-7fe767e2e000 -> /usr/lib/x86_64-linux-gnu/libc-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767e58000-7fe767e59000 -> /usr/lib/x86_64-linux-gnu/ld-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767e59000-7fe767e7c000 -> /usr/lib/x86_64-linux-gnu/ld-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767e7c000-7fe767e84000 -> /usr/lib/x86_64-linux-gnu/ld-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767e85000-7fe767e86000 -> /usr/lib/x86_64-linux-gnu/ld-2.31.so*
+lr-------- 1 elleaech elleaech 64 abr 21 16:23 7fe767e86000-7fe767e87000 -> /usr/lib/x86_64-linux-gnu/ld-2.31.so*
