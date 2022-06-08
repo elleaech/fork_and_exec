@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <inttypes.h>
+#include <sys/wait.h>
 
 #define ERROR -1
 #define SUCCESS 0
